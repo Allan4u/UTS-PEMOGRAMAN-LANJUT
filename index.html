@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card shadow-lg">
+            <div class="card-body">
+                <div class="icon-wrapper">
+                    <svg viewBox="0 0 24 24" class="icon">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                </div>
+                
+                <h1 class="text-center mb-4">Penjumlahan</h1>
+                
+                <div class="mb-4">
+                    <label for="nilai1" class="form-label">Nilai Pertama</label>
+                    <input type="number" class="form-control custom-input" id="nilai1" placeholder="Masukkan nilai pertama">
+                </div>
+
+                <div class="mb-4">
+                    <label for="nilai2" class="form-label">Nilai Kedua</label>
+                    <input type="number" class="form-control custom-input" id="nilai2" placeholder="Masukkan nilai kedua">
+                </div>
+
+                <div class="hasil-section">
+                    <label class="form-label text-white">Hasil Penjumlahan</label>
+                    <input type="text" class="form-control hasil-input" id="hasil" readonly value="0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
